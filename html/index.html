@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriano & Enoque</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script language="javascript" src="../js/Script.js"></script>
+</head>
+<body>
+    <section id="formulario">
+        <H1>GERADOR DE TABELAS</H1>
+        <form action="index.html" method="post">
+            <label id="lbl">Digite a Quantidade de Linhas:</label>
+            <input id="qtd_linhas" type="number" minlength="1" required></input>
+            
+            <label id="lbl">Digite a Quantidade de Colunas:</label>
+            <input id="qtd_colunas" type="number" minlength="1" required  ></input>
+            <br> <br>
+            <div id="btn_group">
+                <button id="btn_limpar" type="button" onclick="limpar()">Limpar</button>
+                <button id="btn_gerarTabela" type="button" onclick="gerarTabela()">Gerar Tabela</button>
+            </div>            
+        </form>
+    </section>
+
+    <section id="resposta"> </section>       
+    <footer id="rodape">© Desenvolvido por Adriano Fernades Silva Santos & Enoque Teixeira Barbosa</footer>
+</body>
+</html>
